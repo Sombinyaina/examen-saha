@@ -197,3 +197,20 @@ table {
     gap: 30px;
 }
 
+.footer{
+  @include row;
+}
+
+.line{
+  width: 80%;
+  background-color: #7164BF;
+  height: 3px;
+  border-radius: 20px;
+  margin-top: 15px; 
+}
+
+.icon{
+  gap: 20px;
+  @include row;
+  margin: 0 40px 0 20px;
+}
