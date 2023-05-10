@@ -1,0 +1,17 @@
+@mixin telex {
+    font-family: 'Telex', sans-serif;
+}
+
+@mixin yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+@mixin row {
+    display: flex;
+	flex-direction: row;
+}
+
+@mixin column {
+    display: flex;
+	flex-direction: column;
+}
