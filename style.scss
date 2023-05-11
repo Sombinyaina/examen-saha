@@ -143,17 +143,17 @@ table {
 
 .menu {
   @include telex;
-  margin-top: 48px;
-  margin-bottom: 85px;
 }
 
 .menu:hover {
-	color: #7164BF;
+  color: #7164bf;
 }
 
 .header {
   @include row;
+  align-items: center;
   justify-content: space-between;
+  margin: 20px 67px 200px 80px;
 }
 
 .talk {
@@ -162,55 +162,62 @@ table {
   border-bottom: solid black 2px;
 }
 
-.talking {
-  margin: 48px 60px 0 0;
-}
-
-@media only screen and (max-width:820px) {
-  .navigation{
+@media only screen and (max-width: 820px) {
+  .navigation {
     gap: 50px;
   }
 }
 
-.hero{
+.text-content {
+  margin-left: 70px;
+}
+
+.hero {
   @include row;
+  justify-content: space-between;
 }
 
-.h1{
+.h1 {
   @include yantramanav;
+  font-size: 90px;
+  margin-bottom: 48px;
 }
 
-.text{
+.text {
   @include telex;
-  color: grey;
+  color: #9f9f9f;
+  margin-bottom: 120px;
+  font-size: 28px;
 }
 
-.talk-button{
+.talk-button {
   @include row;
   border: solid 1px black;
   border-radius: 30px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px 20px;
-    display: inline-flex;
-    gap: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 40px;
+  display: inline-flex;
+  gap: 30px;
+  margin-left: 70px;
 }
 
-.footer{
+.footer {
   @include row;
+  margin: 120px 0 80px 0;
 }
 
-.line{
-  width: 80%;
-  background-color: #7164BF;
-  height: 3px;
+.line {
+  width: 90%;
+  background-color: #b7b2b3;
+  height: 5px;
   border-radius: 20px;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
-.icon{
-  gap: 20px;
+.icon {
+  gap: 23px;
   @include row;
-  margin: 0 40px 0 20px;
+  margin: 0 50px 0 20px;
 }
