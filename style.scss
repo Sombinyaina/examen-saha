@@ -167,7 +167,7 @@ table {
 .talke {
   @include yantramanav;
   font-weight: 900;
-  border-bottom: solid black 3px;
+  border-bottom: solid black 2px;
   font-size: 18px;
 }
 
@@ -189,13 +189,13 @@ table {
 .h1 {
   @include yantramanav;
   font-size: 90px;
-  margin-bottom: 48px;
+  margin-bottom: 30px;
 }
 
 .text {
   @include telex;
   color: #9f9f9f;
-  margin-bottom: 120px;
+  margin: 48px 0 120px 0;
   font-size: 28px;
 }
 
